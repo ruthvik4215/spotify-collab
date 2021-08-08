@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'scapi.apps.ScapiConfig',
-    'rest_framework'
+    'rest_framework',
+    'scfe.apps.ScFeConfig'
 ]
 
 MIDDLEWARE = [
