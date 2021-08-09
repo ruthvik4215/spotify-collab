@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Link, Route, Redirect, Switch} from 'react-router-dom';
-import HostAGroup from "./HostAGroup";
-import JoinAGroup from "./JoinAGroup";
+import HostRoom from "./HostRoom";
+import JoinRoom from "./JoinRoom";
+import Room from "./Room";
 
 export default class Home extends Component {
     constructor(props) {
@@ -15,8 +16,9 @@ export default class Home extends Component {
                 <Route exact path='/music' >
                         <h1>Home page</h1>
                     </Route>
-                    <Route path='/join' component={JoinAGroup} />
-                    <Route path='/host' component={HostAGroup} />
+                    <Route path='/join' component={JoinRoom} />
+                    <Route path='/host' component={HostRoom} />
+                    <Route path='/room/:roomCode' component={Room} />
                 </Switch>
             </Router>
         );

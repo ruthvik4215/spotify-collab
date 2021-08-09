@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import { render } from 'react-dom'
 import Home from './Home';
 import { BrowserRouter as Router, Link, Route, Redirect, Switch} from 'react-router-dom'
-import JoinAGroup from './JoinAGroup';
-import HostAGroup from './HostAGroup';
+// import joinRoom from './joinRoom';
+// import HostRoom from './HostRoom';
 
 export default class App extends Component {
     constructor(props) {

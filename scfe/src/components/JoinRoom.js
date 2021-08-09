@@ -1,6 +1,10 @@
 import React from "react";
 
-export default class JoinAGroup extends React.Component {
+export default class JoinRoom extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+
     render() {
         return (
             <div>
