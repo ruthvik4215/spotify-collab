@@ -3,8 +3,8 @@ import random
 import string
 
 def generateUniqueCode():
-    codeLength = 8
-    uniqueString = string.ascii_uppercase + string.digits + string.ascii_lowercase
+    codeLength = 15
+    uniqueString = string.digits + string.ascii_lowercase
 
     # use search algorithm for better result and faster performance.
     while True:
